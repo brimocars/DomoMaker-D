@@ -9,8 +9,7 @@
     "dev": "nodemon -e js,html,css --watch ./server --watch ./hosted ./server/app.js",
     "start": "node ./server/app.js",
     "pretest": "eslint ./server --fix",
-    "test": "echo \"Tests complete\"",
-    "heroku-postbuild": "webpack"
+    "test": "echo \"Tests complete\""
   },
   "keywords": [
     "Node",
