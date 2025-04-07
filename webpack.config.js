@@ -22,7 +22,6 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'hosted'),
-    publicPath: '/hosted/',
-    filename: '[name]bundle.js',
+    filename: '[name]Bundle.js',
   },
 };
